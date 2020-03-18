@@ -140,3 +140,13 @@ To [override the default config](https://eslint.org/docs/user-guide/configuring)
 ---
 
 This repo is maintained by [Anomaly Innovations](https://anoma.ly); makers of [Seed](https://seed.run) and [Serverless Stack](https://serverless-stack.com).
+
+### Some examples
+#### Create
+serverless invoke local --function create --path mocks/create-event.json
+#### List
+serverless invoke local --function list --path mocks/list-event.json
+#### Update
+serverless invoke local --function update --path mocks/update-event.json
+#### Delete
+serverless invoke local --function delete --path mocks/delete-event.json
